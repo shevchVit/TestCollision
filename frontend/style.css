@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#map {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    left: calc(50% - 500px);
+    top: calc(50% - 500px);
+    border: 2px solid black;
+}
+
+#map_background {
+    background-image: url("./map1.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#map_body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#drone {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.05s;
+    z-index: 9999;
+}
+
+.block {
+    position: absolute;
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+}
